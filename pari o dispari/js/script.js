@@ -18,9 +18,9 @@ function getRandom(min,max) {
     return Math.floor(Math.random()*(max - min +1))+ min;
 }
 
-for (var i = 0; i < 5; i++) {
-  var numeroComp = getRandom(1,5);
-}console.log("il computer ha scelto " + numeroComp);
+// for (var i = 0; i < 5; i++) {
+var numeroComp = getRandom(1,5);
+console.log("il computer ha scelto " + numeroComp);
 
 // 4 somma dei due numeri
 var somma = numeroUtente + numeroComp;
